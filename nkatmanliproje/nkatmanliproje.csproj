@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CD26FDD7-9BE9-4E67-AAD6-AC62C2AED623}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>nkatmanliproje</RootNamespace>
+    <AssemblyName>nkatmanliproje</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anaekran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anaekran.Designer.cs">
+      <DependentUpon>Anaekran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bolumkontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bolumkontrol.Designer.cs">
+      <DependentUpon>Bolumkontrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktorkontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktorkontrol.Designer.cs">
+      <DependentUpon>Doktorkontrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Girisyap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Girisyap.Designer.cs">
+      <DependentUpon>Girisyap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hastakontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hastakontrol.Designer.cs">
+      <DependentUpon>Hastakontrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Randevual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Randevual.Designer.cs">
+      <DependentUpon>Randevual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Randevukontrolet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Randevukontrolet.Designer.cs">
+      <DependentUpon>Randevukontrolet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yoneticiekrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yoneticiekrani.Designer.cs">
+      <DependentUpon>Yoneticiekrani.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Anaekran.resx">
+      <DependentUpon>Anaekran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bolumkontrol.resx">
+      <DependentUpon>Bolumkontrol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktorkontrol.resx">
+      <DependentUpon>Doktorkontrol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Girisyap.resx">
+      <DependentUpon>Girisyap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hastakontrol.resx">
+      <DependentUpon>Hastakontrol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Randevual.resx">
+      <DependentUpon>Randevual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Randevukontrolet.resx">
+      <DependentUpon>Randevukontrolet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yoneticiekrani.resx">
+      <DependentUpon>Yoneticiekrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\LogicLayer.csproj">
+      <Project>{9e1f22ed-7f48-413d-85f0-d53753e83fbf}</Project>
+      <Name>LogicLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{9681a176-7233-4c5c-81d1-9381a398408b}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entitylayer\Entitylayer.csproj">
+      <Project>{7880462f-6b27-49e2-a150-9731bcc1f059}</Project>
+      <Name>Entitylayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

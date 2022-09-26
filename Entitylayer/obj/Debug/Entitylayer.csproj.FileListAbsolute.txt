@@ -1,0 +1,12 @@
+C:\Users\windows10\source\repos\nkatmanliproje\Entitylayer\bin\Debug\Entitylayer.dll.config
+C:\Users\windows10\source\repos\nkatmanliproje\Entitylayer\bin\Debug\Entitylayer.dll
+C:\Users\windows10\source\repos\nkatmanliproje\Entitylayer\bin\Debug\Entitylayer.pdb
+C:\Users\windows10\source\repos\nkatmanliproje\Entitylayer\bin\Debug\EntityFramework.dll
+C:\Users\windows10\source\repos\nkatmanliproje\Entitylayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\windows10\source\repos\nkatmanliproje\Entitylayer\bin\Debug\EntityFramework.xml
+C:\Users\windows10\source\repos\nkatmanliproje\Entitylayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\windows10\source\repos\nkatmanliproje\Entitylayer\obj\Debug\Entitylayer.csproj.AssemblyReference.cache
+C:\Users\windows10\source\repos\nkatmanliproje\Entitylayer\obj\Debug\Entitylayer.csproj.CoreCompileInputs.cache
+C:\Users\windows10\source\repos\nkatmanliproje\Entitylayer\obj\Debug\Entitylayer.csproj.CopyComplete
+C:\Users\windows10\source\repos\nkatmanliproje\Entitylayer\obj\Debug\Entitylayer.dll
+C:\Users\windows10\source\repos\nkatmanliproje\Entitylayer\obj\Debug\Entitylayer.pdb
